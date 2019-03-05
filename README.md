@@ -14,7 +14,7 @@ Inception是一个开源系统，每个人或者每个公司都可以自由使�
 
 ## 文档地址：
 
-http://mysql-inception.github.io/inception-document/
+http://whuai.github.io/inception/
 
 ## 联系方式
 
@@ -40,5 +40,5 @@ MySQL Inception is built on MySQL 5.6.10 with storage engines and other parts re
 
 MySQL Inception is very popular in China and used some other countries as well, e.g. India. Most of the [documentation](https://github.com/mysql-inception/inception-document) and web user interface is in Chinese. We welcome translation contributions!
 =======
-https://github.com/arkcontrol/arkcontrol
+
 >>>>>>> 148f2db9ab0c765a4459d33c7af71dd168a6bc4c
