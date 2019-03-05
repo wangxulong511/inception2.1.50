@@ -1,0 +1,19 @@
+2018-04-04 09:17:02 0 [Note] Welcome to use Inception2.1.50
+2018-04-04 09:17:02 122294 [Note] Server hostname (bind-address): '*'; port: 6669
+2018-04-04 09:17:02 122294 [Note] IPv6 is available.
+2018-04-04 09:17:02 122294 [Note]   - '::' resolves to '::';
+2018-04-04 09:17:02 122294 [Note] Server socket created on IP: '::'.
+2018-08-21 16:32:02 0 [Note] Welcome to use Inception2.1.50
+2018-08-21 16:32:02 19332 [Note] Server hostname (bind-address): '*'; port: 6669
+2018-08-21 16:32:02 19332 [Note] IPv6 is available.
+2018-08-21 16:32:02 19332 [Note]   - '::' resolves to '::';
+2018-08-21 16:32:02 19332 [Note] Server socket created on IP: '::'.
+2018-08-23 08:30:24 0 [Note] Welcome to use Inception2.1.50
+2018-08-23 08:30:24 2880 [Note] Server hostname (bind-address): '*'; port: 3306
+2018-08-23 08:30:24 2880 [Note] IPv6 is available.
+2018-08-23 08:30:24 2880 [Note]   - '::' resolves to '::';
+2018-08-23 08:30:24 2880 [Note] Server socket created on IP: '::'.
+2018-08-23 08:30:24 2880 [ERROR] Can't start server: Bind on TCP/IP port: Address already in use
+2018-08-23 08:30:24 2880 [ERROR] Do you already have another mysqld server running on port: 3306 ?
+2018-08-23 08:30:24 2880 [ERROR] Aborting
+

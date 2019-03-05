@@ -1,0 +1,226 @@
+./Inception, Version: Inception2.1.50 (Source distribution). started with:
+Tcp port: 6669  Unix socket: /tmp/inc.socket
+Time                 Id Command    Argument
+180404  9:18:21	    1 Query	select @@version_comment limit 1
+
+180404  9:18:25	    1 Query	show databases
+
+180404  9:18:51	    1 Query	inception get variables
+
+180404  9:20:20	    1 Query	2
+3
+4
+5
+6
+  
+inception_magic_start
+
+		    1 Query	SELECT DATABASE()
+
+		    1 Query	CREATE TABLE adaptive_office(id int)
+
+180404  9:37:19	    1 Query	inception_magic_commit
+
+180404 13:29:55	    1 Query	show database
+
+180404 13:29:58	    2 Query	show databases
+
+180404 13:30:09	    2 Query	show processlist
+
+180821 16:21:08	    3 Query	select @@version_comment limit 1
+
+180821 16:21:13	    3 Query	show databases
+
+180821 16:21:25	    3 Query	show varaibles
+
+180821 16:21:33	    3 Query	show variables
+
+180821 16:21:39	    3 Query	show status
+
+180821 16:21:50	    3 Query	show processlist
+
+180821 16:21:56	    4 Query	select @@version_comment limit 1
+
+180821 16:23:51	    5 Query	select @@version_comment limit 1
+
+180821 16:23:54	    5 Query	show databases
+
+180821 16:26:14	    7 Query	SHOW VARIABLES LIKE 'lower_case_%'
+
+		    7 Query	SHOW VARIABLES LIKE 'profiling'
+
+		    7 Query	SHOW DATABASES
+
+180821 16:26:50	    9 Query	SHOW VARIABLES LIKE 'lower_case_%'
+
+		    9 Query	SHOW VARIABLES LIKE 'profiling'
+
+		    9 Query	SHOW DATABASES
+
+./Inception, Version: Inception2.1.50 (Source distribution). started with:
+Tcp port: 6669  Unix socket: /tmp/inc.socket
+Time                 Id Command    Argument
+./Inception, Version: Inception2.1.50 (Source distribution). started with:
+Tcp port: 6669  Unix socket: /tmp/inc.socket
+Time                 Id Command    Argument
+180821 16:32:30	    1 Query	SHOW DATABASES
+
+180821 16:32:46	    4 Query	SHOW VARIABLES LIKE 'lower_case_%'
+
+		    4 Query	SHOW VARIABLES LIKE 'profiling'
+
+		    4 Query	SHOW DATABASES
+
+180821 16:33:16	    4 Query	SHOW DATABASES
+
+180821 16:36:55	   10 Query	select @@version_comment limit 1
+
+180821 16:36:58	   10 Query	inception get variables
+
+180823  8:30:52	   11 Query	select @@version_comment limit 1
+
+180823  9:51:51	   22 Query	select @@version_comment limit 1
+
+180823  9:52:02	   22 Query	show databases
+
+180823  9:52:08	   22 Query	show status
+
+180823  9:52:15	   22 Query	show processlist
+
+180823  9:52:32	   22 Query	show databases
+
+180823  9:52:50	   22 Query	show databases
+
+180823  9:52:58	   22 Query	show databases
+
+180823  9:53:04	   22 Query	show variables
+
+180823  9:58:31	   22 Query	inception get variables
+
+180823 11:09:57	   31 Query	SET AUTOCOMMIT = 0
+
+		   31 Query	/*--user=jstyh;--password=jstyh;--host=10.101.130.248;--port=3306;--enable-check;*/                         inception_magic_start;                        use `test`;                        deatat;                         inception_magic_commit
+
+180823 11:10:00	   32 Query	SET AUTOCOMMIT = 0
+
+		   32 Query	/*--user=jstyh;--password=jstyh;--host=10.101.130.248;--port=3306;--enable-check;*/                         inception_magic_start;                        use `test`;                        deatat;                         inception_magic_commit
+
+180823 11:10:01	   33 Query	SET AUTOCOMMIT = 0
+
+		   33 Query	/*--user=jstyh;--password=jstyh;--host=10.101.130.248;--port=3306;--enable-check;*/                         inception_magic_start;                        use `test`;                        deatat;                         inception_magic_commit
+
+180823 11:10:02	   34 Query	SET AUTOCOMMIT = 0
+
+		   34 Query	/*--user=jstyh;--password=jstyh;--host=10.101.130.248;--port=3306;--enable-check;*/                         inception_magic_start;                        use `test`;                        deatat;                         inception_magic_commit
+
+180823 11:10:03	   35 Query	SET AUTOCOMMIT = 0
+
+		   35 Query	/*--user=jstyh;--password=jstyh;--host=10.101.130.248;--port=3306;--enable-check;*/                         inception_magic_start;                        use `test`;                        deatat;                         inception_magic_commit
+
+180823 11:10:12	   36 Query	SET AUTOCOMMIT = 0
+
+		   36 Query	/*--user=jstyh;--password=jstyh;--host=10.101.130.248;--port=3306;--enable-check;*/                         inception_magic_start;                        use `test`;                        deatat;                         inception_magic_commit
+
+180823 11:10:57	   37 Query	SET AUTOCOMMIT = 0
+
+		   37 Query	/*--user=jstyh;--password=jstyh;--host=10.101.130.248;--port=3306;--enable-check;*/                         inception_magic_start;                        use `test`;                        update test set name= 'dfad';                         inception_magic_commit
+
+180823 11:12:10	   38 Query	SET AUTOCOMMIT = 0
+
+		   38 Query	/*--user=jstyh;--password=jstyh;--host=10.101.130.248;--port=3306;--enable-check;*/                         inception_magic_start;                        use `test`;                        update t_acct_info set create_time= '2018-08-23 11:12:00';                         inception_magic_commit
+
+180823 11:13:02	   39 Query	SET AUTOCOMMIT = 0
+
+		   39 Query	/*--user=jstyh;--password=jstyh;--host=10.101.130.248;--port=3306;--enable-check;*/                         inception_magic_start;                        use `test`;                        update t_acct_info set create_time= '2018-08-23 11:12:00' where create_time = '2018-05-31';                         inception_magic_commit
+
+180823 11:13:04	   40 Query	SET AUTOCOMMIT = 0
+
+		   40 Query	/*--user=jstyh;--password=jstyh;--host=10.101.130.248;--port=3306;--enable-check;*/                         inception_magic_start;                        use `test`;                        update t_acct_info set create_time= '2018-08-23 11:12:00' where create_time = '2018-05-31';                         inception_magic_commit
+
+		   41 Query	SET AUTOCOMMIT = 0
+
+		   41 Query	/*--user=jstyh;--password=jstyh;--host=10.101.130.248;--port=3306;--enable-check;*/                         inception_magic_start;                        use `test`;                        update t_acct_info set create_time= '2018-08-23 11:12:00' where create_time = '2018-05-31';                         inception_magic_commit
+
+180823 11:13:05	   42 Query	SET AUTOCOMMIT = 0
+
+		   42 Query	/*--user=jstyh;--password=jstyh;--host=10.101.130.248;--port=3306;--enable-check;*/                         inception_magic_start;                        use `test`;                        update t_acct_info set create_time= '2018-08-23 11:12:00' where create_time = '2018-05-31';                         inception_magic_commit
+
+180823 11:13:10	   43 Query	SET AUTOCOMMIT = 0
+
+		   43 Query	/*--user=jstyh;--password=jstyh;--host=10.101.130.248;--port=3306;--enable-check;*/                         inception_magic_start;                        use `test`;                        update t_acct_info set create_time= '2018-08-23 11:12:00' where create_time = '2018-05-31';                         inception_magic_commit
+
+180823 11:13:12	   44 Query	SET AUTOCOMMIT = 0
+
+		   44 Query	/*--user=jstyh;--password=jstyh;--host=10.101.130.248;--port=3306;--enable-check;*/                         inception_magic_start;                        use `test`;                        update t_acct_info set create_time= '2018-08-23 11:12:00' where create_time = '2018-05-31';                         inception_magic_commit
+
+		   45 Query	SET AUTOCOMMIT = 0
+
+		   45 Query	/*--user=jstyh;--password=jstyh;--host=10.101.130.248;--port=3306;--enable-check;*/                         inception_magic_start;                        use `test`;                        update t_acct_info set create_time= '2018-08-23 11:12:00' where create_time = '2018-05-31';                         inception_magic_commit
+
+		   46 Query	SET AUTOCOMMIT = 0
+
+		   46 Query	/*--user=jstyh;--password=jstyh;--host=10.101.130.248;--port=3306;--enable-check;*/                         inception_magic_start;                        use `test`;                        update t_acct_info set create_time= '2018-08-23 11:12:00' where create_time = '2018-05-31';                         inception_magic_commit
+
+		   47 Query	SET AUTOCOMMIT = 0
+
+		   47 Query	/*--user=jstyh;--password=jstyh;--host=10.101.130.248;--port=3306;--enable-check;*/                         inception_magic_start;                        use `test`;                        update t_acct_info set create_time= '2018-08-23 11:12:00' where create_time = '2018-05-31';                         inception_magic_commit
+
+180823 11:13:13	   48 Query	SET AUTOCOMMIT = 0
+
+		   48 Query	/*--user=jstyh;--password=jstyh;--host=10.101.130.248;--port=3306;--enable-check;*/                         inception_magic_start;                        use `test`;                        update t_acct_info set create_time= '2018-08-23 11:12:00' where create_time = '2018-05-31';                         inception_magic_commit
+
+		   49 Query	SET AUTOCOMMIT = 0
+
+		   49 Query	/*--user=jstyh;--password=jstyh;--host=10.101.130.248;--port=3306;--enable-check;*/                         inception_magic_start;                        use `test`;                        update t_acct_info set create_time= '2018-08-23 11:12:00' where create_time = '2018-05-31';                         inception_magic_commit
+
+180823 11:13:14	   50 Query	SET AUTOCOMMIT = 0
+
+		   50 Query	/*--user=jstyh;--password=jstyh;--host=10.101.130.248;--port=3306;--enable-check;*/                         inception_magic_start;                        use `test`;                        update t_acct_info set create_time= '2018-08-23 11:12:00' where create_time = '2018-05-31';                         inception_magic_commit
+
+		   51 Query	SET AUTOCOMMIT = 0
+
+		   51 Query	/*--user=jstyh;--password=jstyh;--host=10.101.130.248;--port=3306;--enable-check;*/                         inception_magic_start;                        use `test`;                        update t_acct_info set create_time= '2018-08-23 11:12:00' where create_time = '2018-05-31';                         inception_magic_commit
+
+		   52 Query	SET AUTOCOMMIT = 0
+
+		   52 Query	/*--user=jstyh;--password=jstyh;--host=10.101.130.248;--port=3306;--enable-check;*/                         inception_magic_start;                        use `test`;                        update t_acct_info set create_time= '2018-08-23 11:12:00' where create_time = '2018-05-31';                         inception_magic_commit
+
+180823 11:14:00	   53 Query	SET AUTOCOMMIT = 0
+
+		   53 Query	/*--user=jstyh;--password=jstyh;--host=10.101.130.248;--port=3306;--enable-check;*/                         inception_magic_start;                        use `test`;                        update t_acct_info set create_time= '2018-08-23 11:12:00' where create_time = '2018-05-31';                         inception_magic_commit
+
+180823 11:14:24	   54 Query	SET AUTOCOMMIT = 0
+
+		   54 Query	/*--user=jstyh;--password=jstyh;--host=10.101.130.248;--port=3306;--enable-check;*/                         inception_magic_start;                        use `test`;                        update t_acct_info set create_time= '2018-08-23 11:12:00' where create_time = '2018-05-31';                         inception_magic_commit
+
+180823 11:14:25	   55 Query	SET AUTOCOMMIT = 0
+
+		   55 Query	/*--user=jstyh;--password=jstyh;--host=10.101.130.248;--port=3306;--enable-check;*/                         inception_magic_start;                        use `test`;                        update t_acct_info set create_time= '2018-08-23 11:12:00' where create_time = '2018-05-31';                         inception_magic_commit
+
+180823 11:17:25	   56 Query	SET AUTOCOMMIT = 0
+
+		   56 Query	/*--user=jstyh;--password=jstyh;--host=10.101.130.248;--port=3306;--enable-check;*/                         inception_magic_start;                        use `test`;                        CREATE TABLE `t_acct_info1` (
+  `acct_id` varchar(32) NOT NULL COMMENT '账户标识',
+  `user_id` varchar(20) DEFAULT NULL COMMENT '会员标识,会员规则:9开头为C会员;1开头为B会员;内部账会员(001-内部户)+(01-备付金账号,02-待清算户,03-代扣长款户,04-代付长款,05-代扣短款,06-代付短款)+(2位标识)',
+  `acct_name` varchar(128) NOT NULL COMMENT '账户名称',
+  `acct_status` char(1) NOT NULL COMMENT '账户状态（1-正常，2-冻结）',
+  `acct_type` char(2) NOT NULL COMMENT '账户类型(01-基本户,02-待结算账户，03-备付金账户，04-待清算账户，05-代扣长款户，06-代付长款户，07-代扣短款户，08-代付短款户，09-贷款收款户、10-贷款付款户、11-积分户)',
+  `source_from` char(1) NOT NULL COMMENT '业务来源（1-APP，2-OMS）',
+  `acct_level` char(1) NOT NULL COMMENT '账户等级（1-一类账户，2-二类账户，3-三类账户）',
+  `yesterday_balance` bigint(14) NOT NULL COMMENT '昨日余额',
+  `balance` bigint(14) NOT NULL COMMENT '当前余额',
+  `frozen_balance` bigint(14) NOT NULL COMMENT '冻结金额',
+  `open_date` int(8) DEFAULT NULL COMMENT '开户日期',
+  `change_date` int(8) DEFAULT NULL COMMENT '上次动户日期',
+  `remark` varchar(800) DEFAULT NULL COMMENT '备注',
+  `create_user` varchar(30) NOT NULL COMMENT '创建人（系统默认“99”，其它为运营人员ID号）',
+  `update_user` varchar(30) DEFAULT NULL COMMENT '最后更新',
+  `create_time` datetime NOT NULL COMMENT '新增时间',
+  `update_time` datetime DEFAULT NULL COMMENT '最后更新时间',
+  `limited_balance_by_day` bigint(14) DEFAULT NULL COMMENT '单日当前已使用余额(默认为0分)，在账户等级更新时无须重新初始化',
+  `li_bal_day_upt_time` datetime DEFAULT NULL COMMENT '日限额更新时间',
+  `limited_balance_by_all` bigint(14) DEFAULT NULL COMMENT '账户等级已使用余额(默认为0分)，在账户等级更新时无须重新初始化',
+  `li_bal_all_upt_time` datetime DEFAULT NULL COMMENT '账户等级限额更新时间',
+  PRIMARY KEY (`acct_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;                         inception_magic_commit
+

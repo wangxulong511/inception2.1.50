@@ -1,0 +1,102 @@
+debug/mysql/bin/Inception, Version: Inception2.1.50 (Source distribution). started with:
+Tcp port: 6669  Unix socket: /tmp/inc.socket
+Time                 Id Command    Argument
+190305 11:24:46	    1 Query	SHOW VARIABLES LIKE 'lower_case_%'
+
+		    1 Query	SHOW VARIABLES LIKE 'profiling'
+
+		    1 Query	SHOW DATABASES
+
+190305 11:25:12	    4 Query	show databases
+
+190305 11:25:20	    4 Query	select user,host from mysql.user
+
+190305 11:39:17	    5 Query	SHOW VARIABLES LIKE 'lower_case_%'
+
+		    5 Query	SHOW VARIABLES LIKE 'profiling'
+
+		    5 Query	SHOW DATABASES
+
+debug/mysql/bin/Inception, Version: Inception2.1.50 (Source distribution). started with:
+Tcp port: 6669  Unix socket: /tmp/inc.socket
+Time                 Id Command    Argument
+190305 11:43:47	    2 Query	DROP DATABASE 1
+
+190305 11:43:57	    2 Query	CREATE DATABASE test
+
+		    2 Query	SHOW DATABASES
+
+190305 11:44:26	    2 Query	CREATE DATABASE a
+
+		    2 Query	SHOW DATABASES
+
+190305 11:45:05	    3 Query	select user,host from mysql.user
+
+190305 11:46:01	    3 Query	CREATE DATABASE IF NOT EXISTS xxl_job DEFAULT CHARSET utf8 COLLATE utf8_general_ci
+
+190305 14:43:28	    4 Query	begin
+
+190305 14:43:52	    4 Query	CREATE DATABASE IF NOT EXISTS xxl_job DEFAULT CHARSET utf8 COLLATE utf8_general_ci
+
+190305 14:48:41	    4 Query	incetion get variables
+
+190305 14:48:48	    4 Query	incetion get variables
+
+190305 14:55:57	    6 Query	select @@version_comment limit 1
+
+190305 14:56:08	    6 Query	inception get variables
+
+190305 14:59:53	    5 Query	/*--user=zhufeng;--password=xxxxxxxxxxx;--host=xxxxxxxxxx;
+--enable-check;--port=3456;*/  
+inception_magic_start
+
+190305 14:59:59	    5 Query	use mysql
+
+		    5 Query	CREATE TABLE adaptive_office(id int)
+
+		    5 Query	inception_magic_commit
+
+190305 15:01:04	    6 Query	inception_magic_start
+
+		    6 Query	CREATE DATABASE IF NOT EXISTS xxl_job DEFAULT CHARSET utf8 COLLATE utf8_general_ci
+
+		    6 Query	CREATE TABLE adaptive_office(id int)
+
+190305 15:01:07	    6 Query	inception_magic_commit
+
+190305 15:01:44	    6 Query	show databases
+
+190305 15:01:51	    7 Query	show databasess
+
+190305 15:01:54	    7 Query	show databases
+
+190305 15:02:04	    7 Query	inception_magic_start
+
+190305 15:14:35	   13 Query	SHOW VARIABLES LIKE 'lower_case_%'
+
+		   13 Query	SHOW VARIABLES LIKE 'profiling'
+
+		   13 Query	SHOW DATABASES
+
+190305 15:16:06	   17 Query	select @@version_comment limit 1
+
+190305 15:16:19	   17 Query	inception_magic_start
+
+190305 15:17:19	   17 Query	SELECT DATABASE()
+
+190305 15:17:29	   17 Query	SELECT DATABASE()
+
+190305 15:24:45	   17 Query	inception_magic_start
+
+190305 15:25:03	   17 Query	SELECT DATABASE()
+
+190305 15:30:01	   20 Query	set autocommit=0
+
+		   20 Query	/*--user=jstyh;--password=jstyh;--host=10.101.130.6;--execute=1;--port=3306;*/    inception_magic_start;    create database  dbtest01 DEFAULT CHARACTER SET utf8mb4;    inception_magic_commit
+
+190305 15:31:58	   21 Query	set autocommit=0
+
+		   21 Query	/*--user=jstyh;--password=jstyh;--host=10.101.130.6;--execute=1;--port=3306;*/    inception_magic_start;    drop database  dbtest01 ;    inception_magic_commit
+
+190305 15:33:43	   22 Query	select @@version_comment limit 1
+

@@ -1,0 +1,2221 @@
+Determining if the function floor exists failed with the following output:
+Change Dir: /root/inception/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2757973489/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2757973489.dir/build.make CMakeFiles/cmTryCompileExec2757973489.dir/build
+gmake[1]: Entering directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/inception/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2757973489.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=floor   -o CMakeFiles/cmTryCompileExec2757973489.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+/usr/share/cmake/Modules/CheckFunctionExists.c:3: warning: conflicting types for built-in function ‘floor’
+Linking C executable cmTryCompileExec2757973489
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2757973489.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=floor    CMakeFiles/cmTryCompileExec2757973489.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2757973489 -rdynamic 
+CMakeFiles/cmTryCompileExec2757973489.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `floor'
+collect2: ld returned 1 exit status
+gmake[1]: Leaving directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+gmake[1]: *** [cmTryCompileExec2757973489] Error 1
+gmake: *** [cmTryCompileExec2757973489/fast] Error 2
+
+
+Determining if the function crypt exists failed with the following output:
+Change Dir: /root/inception/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec276273022/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec276273022.dir/build.make CMakeFiles/cmTryCompileExec276273022.dir/build
+gmake[1]: Entering directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/inception/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec276273022.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=crypt   -o CMakeFiles/cmTryCompileExec276273022.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec276273022
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec276273022.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=crypt    CMakeFiles/cmTryCompileExec276273022.dir/CheckFunctionExists.c.o  -o cmTryCompileExec276273022 -rdynamic 
+CMakeFiles/cmTryCompileExec276273022.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `crypt'
+collect2: ld returned 1 exit status
+gmake[1]: Leaving directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+gmake[1]: *** [cmTryCompileExec276273022] Error 1
+gmake: *** [cmTryCompileExec276273022/fast] Error 2
+
+
+Determining if the function dlopen exists failed with the following output:
+Change Dir: /root/inception/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec365911260/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec365911260.dir/build.make CMakeFiles/cmTryCompileExec365911260.dir/build
+gmake[1]: Entering directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/inception/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec365911260.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=dlopen   -o CMakeFiles/cmTryCompileExec365911260.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec365911260
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec365911260.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=dlopen    CMakeFiles/cmTryCompileExec365911260.dir/CheckFunctionExists.c.o  -o cmTryCompileExec365911260 -rdynamic 
+CMakeFiles/cmTryCompileExec365911260.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `dlopen'
+collect2: ld returned 1 exit status
+gmake[1]: Leaving directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+gmake[1]: *** [cmTryCompileExec365911260] Error 1
+gmake: *** [cmTryCompileExec365911260/fast] Error 2
+
+
+Determining if the function clock_gettime exists failed with the following output:
+Change Dir: /root/inception/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1456108928/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1456108928.dir/build.make CMakeFiles/cmTryCompileExec1456108928.dir/build
+gmake[1]: Entering directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/inception/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1456108928.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=clock_gettime   -o CMakeFiles/cmTryCompileExec1456108928.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1456108928
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1456108928.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=clock_gettime    CMakeFiles/cmTryCompileExec1456108928.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1456108928 -rdynamic 
+CMakeFiles/cmTryCompileExec1456108928.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `clock_gettime'
+collect2: ld returned 1 exit status
+gmake[1]: Leaving directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+gmake[1]: *** [cmTryCompileExec1456108928] Error 1
+gmake: *** [cmTryCompileExec1456108928/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /root/inception/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec845848003/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec845848003.dir/build.make CMakeFiles/cmTryCompileExec845848003.dir/build
+gmake[1]: Entering directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/inception/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec845848003.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec845848003.dir/CheckSymbolExists.c.o   -c /root/inception/debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec845848003
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec845848003.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall     CMakeFiles/cmTryCompileExec845848003.dir/CheckSymbolExists.c.o  -o cmTryCompileExec845848003 -rdynamic 
+CMakeFiles/cmTryCompileExec845848003.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0xc): undefined reference to `pthread_create'
+collect2: ld returned 1 exit status
+gmake[1]: Leaving directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+gmake[1]: *** [cmTryCompileExec845848003] Error 1
+gmake: *** [cmTryCompileExec845848003/fast] Error 2
+
+File /root/inception/debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /root/inception/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2532684194/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2532684194.dir/build.make CMakeFiles/cmTryCompileExec2532684194.dir/build
+gmake[1]: Entering directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/inception/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2532684194.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec2532684194.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2532684194
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2532684194.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec2532684194.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2532684194 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: ld returned 1 exit status
+gmake[1]: Leaving directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+gmake[1]: *** [cmTryCompileExec2532684194] Error 1
+gmake: *** [cmTryCompileExec2532684194/fast] Error 2
+
+
+Determining if files cxxabi.h exist failed with the following output:
+Change Dir: /root/inception/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2136177520/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2136177520.dir/build.make CMakeFiles/cmTryCompileExec2136177520.dir/build
+gmake[1]: Entering directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/inception/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2136177520.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec2136177520.dir/CheckIncludeFiles.c.o   -c /root/inception/debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/root/inception/debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:20: error: cxxabi.h: No such file or directory
+gmake[1]: Leaving directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec2136177520.dir/CheckIncludeFiles.c.o] Error 1
+gmake: *** [cmTryCompileExec2136177520/fast] Error 2
+
+Source:
+/* */
+#include <cxxabi.h>
+
+
+int main(){return 0;}
+
+Determining if files floatingpoint.h exist failed with the following output:
+Change Dir: /root/inception/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1494406728/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1494406728.dir/build.make CMakeFiles/cmTryCompileExec1494406728.dir/build
+gmake[1]: Entering directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/inception/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1494406728.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec1494406728.dir/CheckIncludeFiles.c.o   -c /root/inception/debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/root/inception/debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:27: error: floatingpoint.h: No such file or directory
+gmake[1]: Leaving directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec1494406728.dir/CheckIncludeFiles.c.o] Error 1
+gmake: *** [cmTryCompileExec1494406728/fast] Error 2
+
+Source:
+/* */
+#include <floatingpoint.h>
+
+
+int main(){return 0;}
+
+Determining if files ieeefp.h exist failed with the following output:
+Change Dir: /root/inception/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec749139957/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec749139957.dir/build.make CMakeFiles/cmTryCompileExec749139957.dir/build
+gmake[1]: Entering directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/inception/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec749139957.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec749139957.dir/CheckIncludeFiles.c.o   -c /root/inception/debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/root/inception/debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:20: error: ieeefp.h: No such file or directory
+gmake[1]: Leaving directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec749139957.dir/CheckIncludeFiles.c.o] Error 1
+gmake: *** [cmTryCompileExec749139957/fast] Error 2
+
+Source:
+/* */
+#include <ieeefp.h>
+
+
+int main(){return 0;}
+
+Determining if files ndir.h exist failed with the following output:
+Change Dir: /root/inception/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1752331771/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1752331771.dir/build.make CMakeFiles/cmTryCompileExec1752331771.dir/build
+gmake[1]: Entering directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/inception/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1752331771.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec1752331771.dir/CheckIncludeFiles.c.o   -c /root/inception/debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/root/inception/debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:18: error: ndir.h: No such file or directory
+gmake[1]: *** [CMakeFiles/cmTryCompileExec1752331771.dir/CheckIncludeFiles.c.o] Error 1
+gmake[1]: Leaving directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec1752331771/fast] Error 2
+
+Source:
+/* */
+#include <ndir.h>
+
+
+int main(){return 0;}
+
+Determining if files port.h exist failed with the following output:
+Change Dir: /root/inception/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3309355322/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3309355322.dir/build.make CMakeFiles/cmTryCompileExec3309355322.dir/build
+gmake[1]: Entering directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/inception/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3309355322.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec3309355322.dir/CheckIncludeFiles.c.o   -c /root/inception/debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/root/inception/debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:18: error: port.h: No such file or directory
+gmake[1]: Leaving directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec3309355322.dir/CheckIncludeFiles.c.o] Error 1
+gmake: *** [cmTryCompileExec3309355322/fast] Error 2
+
+Source:
+/* */
+#include <port.h>
+
+
+int main(){return 0;}
+
+Determining if files select.h exist failed with the following output:
+Change Dir: /root/inception/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2954747035/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2954747035.dir/build.make CMakeFiles/cmTryCompileExec2954747035.dir/build
+gmake[1]: Entering directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/inception/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2954747035.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec2954747035.dir/CheckIncludeFiles.c.o   -c /root/inception/debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/root/inception/debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:20: error: select.h: No such file or directory
+gmake[1]: Leaving directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec2954747035.dir/CheckIncludeFiles.c.o] Error 1
+gmake: *** [cmTryCompileExec2954747035/fast] Error 2
+
+Source:
+/* */
+#include <select.h>
+
+
+int main(){return 0;}
+
+Determining if files sys/ndir.h exist failed with the following output:
+Change Dir: /root/inception/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1838955408/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1838955408.dir/build.make CMakeFiles/cmTryCompileExec1838955408.dir/build
+gmake[1]: Entering directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/inception/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1838955408.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec1838955408.dir/CheckIncludeFiles.c.o   -c /root/inception/debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/root/inception/debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:22: error: sys/ndir.h: No such file or directory
+gmake[1]: *** [CMakeFiles/cmTryCompileExec1838955408.dir/CheckIncludeFiles.c.o] Error 1
+gmake[1]: Leaving directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec1838955408/fast] Error 2
+
+Source:
+/* */
+#include <sys/ndir.h>
+
+
+int main(){return 0;}
+
+Determining if files sys/pte.h exist failed with the following output:
+Change Dir: /root/inception/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2607395584/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2607395584.dir/build.make CMakeFiles/cmTryCompileExec2607395584.dir/build
+gmake[1]: Entering directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/inception/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2607395584.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec2607395584.dir/CheckIncludeFiles.c.o   -c /root/inception/debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/root/inception/debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:21: error: sys/pte.h: No such file or directory
+gmake[1]: Leaving directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec2607395584.dir/CheckIncludeFiles.c.o] Error 1
+gmake: *** [cmTryCompileExec2607395584/fast] Error 2
+
+Source:
+/* */
+#include <sys/pte.h>
+
+
+int main(){return 0;}
+
+Determining if files synch.h exist failed with the following output:
+Change Dir: /root/inception/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec4089041595/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec4089041595.dir/build.make CMakeFiles/cmTryCompileExec4089041595.dir/build
+gmake[1]: Entering directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/inception/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4089041595.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec4089041595.dir/CheckIncludeFiles.c.o   -c /root/inception/debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/root/inception/debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:19: error: synch.h: No such file or directory
+gmake[1]: Leaving directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec4089041595.dir/CheckIncludeFiles.c.o] Error 1
+gmake: *** [cmTryCompileExec4089041595/fast] Error 2
+
+Source:
+/* */
+#include <synch.h>
+
+
+int main(){return 0;}
+
+Determining if files sysent.h exist failed with the following output:
+Change Dir: /root/inception/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec48459046/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec48459046.dir/build.make CMakeFiles/cmTryCompileExec48459046.dir/build
+gmake[1]: Entering directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/inception/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec48459046.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec48459046.dir/CheckIncludeFiles.c.o   -c /root/inception/debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/root/inception/debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:20: error: sysent.h: No such file or directory
+gmake[1]: Leaving directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec48459046.dir/CheckIncludeFiles.c.o] Error 1
+gmake: *** [cmTryCompileExec48459046/fast] Error 2
+
+Source:
+/* */
+#include <sysent.h>
+
+
+int main(){return 0;}
+
+Determining if files sys/fpu.h exist failed with the following output:
+Change Dir: /root/inception/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3845556017/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3845556017.dir/build.make CMakeFiles/cmTryCompileExec3845556017.dir/build
+gmake[1]: Entering directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/inception/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3845556017.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec3845556017.dir/CheckIncludeFiles.c.o   -c /root/inception/debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/root/inception/debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:21: error: sys/fpu.h: No such file or directory
+gmake[1]: Leaving directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec3845556017.dir/CheckIncludeFiles.c.o] Error 1
+gmake: *** [cmTryCompileExec3845556017/fast] Error 2
+
+Source:
+/* */
+#include <sys/fpu.h>
+
+
+int main(){return 0;}
+
+Determining if files sys/malloc.h exist failed with the following output:
+Change Dir: /root/inception/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec71848825/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec71848825.dir/build.make CMakeFiles/cmTryCompileExec71848825.dir/build
+gmake[1]: Entering directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/inception/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec71848825.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec71848825.dir/CheckIncludeFiles.c.o   -c /root/inception/debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/root/inception/debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:24: error: sys/malloc.h: No such file or directory
+gmake[1]: Leaving directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec71848825.dir/CheckIncludeFiles.c.o] Error 1
+gmake: *** [cmTryCompileExec71848825/fast] Error 2
+
+Source:
+/* */
+#include <sys/malloc.h>
+
+
+int main(){return 0;}
+
+Determining if files sys/stream.h exist failed with the following output:
+Change Dir: /root/inception/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2709258412/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2709258412.dir/build.make CMakeFiles/cmTryCompileExec2709258412.dir/build
+gmake[1]: Entering directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/inception/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2709258412.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec2709258412.dir/CheckIncludeFiles.c.o   -c /root/inception/debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/root/inception/debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:24: error: sys/stream.h: No such file or directory
+gmake[1]: Leaving directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec2709258412.dir/CheckIncludeFiles.c.o] Error 1
+gmake: *** [cmTryCompileExec2709258412/fast] Error 2
+
+Source:
+/* */
+#include <sys/stream.h>
+
+
+int main(){return 0;}
+
+Determining if files sys/termcap.h exist failed with the following output:
+Change Dir: /root/inception/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1978140335/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1978140335.dir/build.make CMakeFiles/cmTryCompileExec1978140335.dir/build
+gmake[1]: Entering directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/inception/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1978140335.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec1978140335.dir/CheckIncludeFiles.c.o   -c /root/inception/debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/root/inception/debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:25: error: sys/termcap.h: No such file or directory
+gmake[1]: Leaving directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec1978140335.dir/CheckIncludeFiles.c.o] Error 1
+gmake: *** [cmTryCompileExec1978140335/fast] Error 2
+
+Source:
+/* */
+#include <sys/termcap.h>
+
+
+int main(){return 0;}
+
+Determining if files termbits.h exist failed with the following output:
+Change Dir: /root/inception/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1289072469/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1289072469.dir/build.make CMakeFiles/cmTryCompileExec1289072469.dir/build
+gmake[1]: Entering directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/inception/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1289072469.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec1289072469.dir/CheckIncludeFiles.c.o   -c /root/inception/debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/root/inception/debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:22: error: termbits.h: No such file or directory
+gmake[1]: *** [CMakeFiles/cmTryCompileExec1289072469.dir/CheckIncludeFiles.c.o] Error 1
+gmake[1]: Leaving directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec1289072469/fast] Error 2
+
+Source:
+/* */
+#include <termbits.h>
+
+
+int main(){return 0;}
+
+Determining if files varargs.h exist failed with the following output:
+Change Dir: /root/inception/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1529532213/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1529532213.dir/build.make CMakeFiles/cmTryCompileExec1529532213.dir/build
+gmake[1]: Entering directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/inception/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1529532213.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec1529532213.dir/CheckIncludeFiles.c.o   -c /root/inception/debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+In file included from /root/inception/debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:
+/usr/lib/gcc/x86_64-redhat-linux/4.4.7/include/varargs.h:4:2: error: #error "GCC no longer implements <varargs.h>."
+/usr/lib/gcc/x86_64-redhat-linux/4.4.7/include/varargs.h:5:2: error: #error "Revise your code to use <stdarg.h>."
+gmake[1]: Leaving directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec1529532213.dir/CheckIncludeFiles.c.o] Error 1
+gmake: *** [cmTryCompileExec1529532213/fast] Error 2
+
+Source:
+/* */
+#include <varargs.h>
+
+
+int main(){return 0;}
+
+Determining if files sys/utime.h exist failed with the following output:
+Change Dir: /root/inception/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec4133027199/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec4133027199.dir/build.make CMakeFiles/cmTryCompileExec4133027199.dir/build
+gmake[1]: Entering directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/inception/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4133027199.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec4133027199.dir/CheckIncludeFiles.c.o   -c /root/inception/debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/root/inception/debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:23: error: sys/utime.h: No such file or directory
+gmake[1]: Leaving directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec4133027199.dir/CheckIncludeFiles.c.o] Error 1
+gmake: *** [cmTryCompileExec4133027199/fast] Error 2
+
+Source:
+/* */
+#include <sys/utime.h>
+
+
+int main(){return 0;}
+
+Determining if files sys/vadvise.h exist failed with the following output:
+Change Dir: /root/inception/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2988139116/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2988139116.dir/build.make CMakeFiles/cmTryCompileExec2988139116.dir/build
+gmake[1]: Entering directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/inception/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2988139116.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec2988139116.dir/CheckIncludeFiles.c.o   -c /root/inception/debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/root/inception/debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:25: error: sys/vadvise.h: No such file or directory
+gmake[1]: Leaving directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec2988139116.dir/CheckIncludeFiles.c.o] Error 1
+gmake: *** [cmTryCompileExec2988139116/fast] Error 2
+
+Source:
+/* */
+#include <sys/vadvise.h>
+
+
+int main(){return 0;}
+
+Determining if files vis.h exist failed with the following output:
+Change Dir: /root/inception/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1427200661/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1427200661.dir/build.make CMakeFiles/cmTryCompileExec1427200661.dir/build
+gmake[1]: Entering directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/inception/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1427200661.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec1427200661.dir/CheckIncludeFiles.c.o   -c /root/inception/debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/root/inception/debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:17: error: vis.h: No such file or directory
+gmake[1]: Leaving directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec1427200661.dir/CheckIncludeFiles.c.o] Error 1
+gmake: *** [cmTryCompileExec1427200661/fast] Error 2
+
+Source:
+/* */
+#include <vis.h>
+
+
+int main(){return 0;}
+
+Determining if files sasl/sasl.h exist failed with the following output:
+Change Dir: /root/inception/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec4233184573/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec4233184573.dir/build.make CMakeFiles/cmTryCompileExec4233184573.dir/build
+gmake[1]: Entering directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/inception/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4233184573.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec4233184573.dir/CheckIncludeFiles.c.o   -c /root/inception/debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/root/inception/debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:23: error: sasl/sasl.h: No such file or directory
+gmake[1]: Leaving directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec4233184573.dir/CheckIncludeFiles.c.o] Error 1
+gmake: *** [cmTryCompileExec4233184573/fast] Error 2
+
+Source:
+/* */
+#include <sasl/sasl.h>
+
+
+int main(){return 0;}
+
+Determining if files sys/devpoll.h exist failed with the following output:
+Change Dir: /root/inception/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec590909777/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec590909777.dir/build.make CMakeFiles/cmTryCompileExec590909777.dir/build
+gmake[1]: Entering directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/inception/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec590909777.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec590909777.dir/CheckIncludeFiles.c.o   -c /root/inception/debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/root/inception/debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:25: error: sys/devpoll.h: No such file or directory
+gmake[1]: Leaving directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec590909777.dir/CheckIncludeFiles.c.o] Error 1
+gmake: *** [cmTryCompileExec590909777/fast] Error 2
+
+Source:
+/* */
+#include <sys/devpoll.h>
+
+
+int main(){return 0;}
+
+Determining if files sys/devpoll.h exist failed with the following output:
+Change Dir: /root/inception/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1906840332/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1906840332.dir/build.make CMakeFiles/cmTryCompileExec1906840332.dir/build
+gmake[1]: Entering directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/inception/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1906840332.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec1906840332.dir/CheckIncludeFiles.c.o   -c /root/inception/debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/root/inception/debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:25: error: sys/devpoll.h: No such file or directory
+gmake[1]: Leaving directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec1906840332.dir/CheckIncludeFiles.c.o] Error 1
+gmake: *** [cmTryCompileExec1906840332/fast] Error 2
+
+Source:
+/* */
+#include <sys/devpoll.h>
+
+
+int main(){return 0;}
+
+Determining if files sys/event.h exist failed with the following output:
+Change Dir: /root/inception/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1632626065/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1632626065.dir/build.make CMakeFiles/cmTryCompileExec1632626065.dir/build
+gmake[1]: Entering directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/inception/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1632626065.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec1632626065.dir/CheckIncludeFiles.c.o   -c /root/inception/debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/root/inception/debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:23: error: sys/event.h: No such file or directory
+gmake[1]: Leaving directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec1632626065.dir/CheckIncludeFiles.c.o] Error 1
+gmake: *** [cmTryCompileExec1632626065/fast] Error 2
+
+Source:
+/* */
+#include <sys/event.h>
+
+
+int main(){return 0;}
+
+Determining if files sys/ptem.h exist failed with the following output:
+Change Dir: /root/inception/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1970051630/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1970051630.dir/build.make CMakeFiles/cmTryCompileExec1970051630.dir/build
+gmake[1]: Entering directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/inception/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1970051630.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec1970051630.dir/CheckIncludeFiles.c.o   -c /root/inception/debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/root/inception/debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:22: error: sys/ptem.h: No such file or directory
+gmake[1]: Leaving directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec1970051630.dir/CheckIncludeFiles.c.o] Error 1
+gmake: *** [cmTryCompileExec1970051630/fast] Error 2
+
+Source:
+/* */
+#include <sys/ptem.h>
+
+
+int main(){return 0;}
+
+Determining if the function _aligned_malloc exists failed with the following output:
+Change Dir: /root/inception/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3606869251/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3606869251.dir/build.make CMakeFiles/cmTryCompileExec3606869251.dir/build
+gmake[1]: Entering directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/inception/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3606869251.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=_aligned_malloc   -o CMakeFiles/cmTryCompileExec3606869251.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3606869251
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3606869251.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=_aligned_malloc    CMakeFiles/cmTryCompileExec3606869251.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3606869251 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec3606869251.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `_aligned_malloc'
+collect2: ld returned 1 exit status
+gmake[1]: Leaving directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+gmake[1]: *** [cmTryCompileExec3606869251] Error 1
+gmake: *** [cmTryCompileExec3606869251/fast] Error 2
+
+
+Determining if the function _aligned_free exists failed with the following output:
+Change Dir: /root/inception/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec462560310/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec462560310.dir/build.make CMakeFiles/cmTryCompileExec462560310.dir/build
+gmake[1]: Entering directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/inception/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec462560310.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=_aligned_free   -o CMakeFiles/cmTryCompileExec462560310.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec462560310
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec462560310.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=_aligned_free    CMakeFiles/cmTryCompileExec462560310.dir/CheckFunctionExists.c.o  -o cmTryCompileExec462560310 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec462560310.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `_aligned_free'
+collect2: ld returned 1 exit status
+gmake[1]: Leaving directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+gmake[1]: *** [cmTryCompileExec462560310] Error 1
+gmake: *** [cmTryCompileExec462560310/fast] Error 2
+
+
+Determining if the function printstack exists failed with the following output:
+Change Dir: /root/inception/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3944359039/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3944359039.dir/build.make CMakeFiles/cmTryCompileExec3944359039.dir/build
+gmake[1]: Entering directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/inception/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3944359039.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=printstack   -o CMakeFiles/cmTryCompileExec3944359039.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3944359039
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3944359039.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=printstack    CMakeFiles/cmTryCompileExec3944359039.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3944359039 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec3944359039.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `printstack'
+collect2: ld returned 1 exit status
+gmake[1]: Leaving directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+gmake[1]: *** [cmTryCompileExec3944359039] Error 1
+gmake: *** [cmTryCompileExec3944359039/fast] Error 2
+
+
+Determining if the function bmove exists failed with the following output:
+Change Dir: /root/inception/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec31037537/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec31037537.dir/build.make CMakeFiles/cmTryCompileExec31037537.dir/build
+gmake[1]: Entering directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/inception/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec31037537.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=bmove   -o CMakeFiles/cmTryCompileExec31037537.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec31037537
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec31037537.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=bmove    CMakeFiles/cmTryCompileExec31037537.dir/CheckFunctionExists.c.o  -o cmTryCompileExec31037537 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec31037537.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `bmove'
+collect2: ld returned 1 exit status
+gmake[1]: Leaving directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+gmake[1]: *** [cmTryCompileExec31037537] Error 1
+gmake: *** [cmTryCompileExec31037537/fast] Error 2
+
+
+Determining if the function directio exists failed with the following output:
+Change Dir: /root/inception/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec545905763/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec545905763.dir/build.make CMakeFiles/cmTryCompileExec545905763.dir/build
+gmake[1]: Entering directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/inception/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec545905763.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=directio   -o CMakeFiles/cmTryCompileExec545905763.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec545905763
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec545905763.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=directio    CMakeFiles/cmTryCompileExec545905763.dir/CheckFunctionExists.c.o  -o cmTryCompileExec545905763 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec545905763.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `directio'
+collect2: ld returned 1 exit status
+gmake[1]: Leaving directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+gmake[1]: *** [cmTryCompileExec545905763] Error 1
+gmake: *** [cmTryCompileExec545905763/fast] Error 2
+
+
+Determining if the function _doprnt exists failed with the following output:
+Change Dir: /root/inception/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3462100260/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3462100260.dir/build.make CMakeFiles/cmTryCompileExec3462100260.dir/build
+gmake[1]: Entering directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/inception/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3462100260.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=_doprnt   -o CMakeFiles/cmTryCompileExec3462100260.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3462100260
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3462100260.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=_doprnt    CMakeFiles/cmTryCompileExec3462100260.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3462100260 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec3462100260.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `_doprnt'
+collect2: ld returned 1 exit status
+gmake[1]: Leaving directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+gmake[1]: *** [cmTryCompileExec3462100260] Error 1
+gmake: *** [cmTryCompileExec3462100260/fast] Error 2
+
+
+Determining if the function compress exists failed with the following output:
+Change Dir: /root/inception/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3904972262/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3904972262.dir/build.make CMakeFiles/cmTryCompileExec3904972262.dir/build
+gmake[1]: Entering directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/inception/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3904972262.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=compress   -o CMakeFiles/cmTryCompileExec3904972262.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3904972262
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3904972262.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=compress    CMakeFiles/cmTryCompileExec3904972262.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3904972262 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec3904972262.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `compress'
+collect2: ld returned 1 exit status
+gmake[1]: Leaving directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+gmake[1]: *** [cmTryCompileExec3904972262] Error 1
+gmake: *** [cmTryCompileExec3904972262/fast] Error 2
+
+
+Determining if the function fconvert exists failed with the following output:
+Change Dir: /root/inception/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2500322044/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2500322044.dir/build.make CMakeFiles/cmTryCompileExec2500322044.dir/build
+gmake[1]: Entering directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/inception/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2500322044.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=fconvert   -o CMakeFiles/cmTryCompileExec2500322044.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2500322044
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2500322044.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=fconvert    CMakeFiles/cmTryCompileExec2500322044.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2500322044 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec2500322044.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `fconvert'
+collect2: ld returned 1 exit status
+gmake[1]: Leaving directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+gmake[1]: *** [cmTryCompileExec2500322044] Error 1
+gmake: *** [cmTryCompileExec2500322044/fast] Error 2
+
+
+Determining if the function fpsetmask exists failed with the following output:
+Change Dir: /root/inception/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3026769424/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3026769424.dir/build.make CMakeFiles/cmTryCompileExec3026769424.dir/build
+gmake[1]: Entering directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/inception/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3026769424.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=fpsetmask   -o CMakeFiles/cmTryCompileExec3026769424.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3026769424
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3026769424.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=fpsetmask    CMakeFiles/cmTryCompileExec3026769424.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3026769424 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec3026769424.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `fpsetmask'
+collect2: ld returned 1 exit status
+gmake[1]: Leaving directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+gmake[1]: *** [cmTryCompileExec3026769424] Error 1
+gmake: *** [cmTryCompileExec3026769424/fast] Error 2
+
+
+Determining if the function gethrtime exists failed with the following output:
+Change Dir: /root/inception/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3448765447/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3448765447.dir/build.make CMakeFiles/cmTryCompileExec3448765447.dir/build
+gmake[1]: Entering directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/inception/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3448765447.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=gethrtime   -o CMakeFiles/cmTryCompileExec3448765447.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3448765447
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3448765447.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=gethrtime    CMakeFiles/cmTryCompileExec3448765447.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3448765447 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec3448765447.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `gethrtime'
+collect2: ld returned 1 exit status
+gmake[1]: Leaving directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+gmake[1]: *** [cmTryCompileExec3448765447] Error 1
+gmake: *** [cmTryCompileExec3448765447/fast] Error 2
+
+
+Determining if the function getpassphrase exists failed with the following output:
+Change Dir: /root/inception/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1461149932/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1461149932.dir/build.make CMakeFiles/cmTryCompileExec1461149932.dir/build
+gmake[1]: Entering directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/inception/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1461149932.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=getpassphrase   -o CMakeFiles/cmTryCompileExec1461149932.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1461149932
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1461149932.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=getpassphrase    CMakeFiles/cmTryCompileExec1461149932.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1461149932 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec1461149932.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `getpassphrase'
+collect2: ld returned 1 exit status
+gmake[1]: Leaving directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+gmake[1]: *** [cmTryCompileExec1461149932] Error 1
+gmake: *** [cmTryCompileExec1461149932/fast] Error 2
+
+
+Determining if the function issetugid exists failed with the following output:
+Change Dir: /root/inception/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec4150100951/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec4150100951.dir/build.make CMakeFiles/cmTryCompileExec4150100951.dir/build
+gmake[1]: Entering directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/inception/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4150100951.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=issetugid   -o CMakeFiles/cmTryCompileExec4150100951.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec4150100951
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4150100951.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=issetugid    CMakeFiles/cmTryCompileExec4150100951.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4150100951 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec4150100951.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `issetugid'
+collect2: ld returned 1 exit status
+gmake[1]: Leaving directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+gmake[1]: *** [cmTryCompileExec4150100951] Error 1
+gmake: *** [cmTryCompileExec4150100951/fast] Error 2
+
+
+Determining if the function port_create exists failed with the following output:
+Change Dir: /root/inception/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1556182754/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1556182754.dir/build.make CMakeFiles/cmTryCompileExec1556182754.dir/build
+gmake[1]: Entering directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/inception/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1556182754.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=port_create   -o CMakeFiles/cmTryCompileExec1556182754.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1556182754
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1556182754.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=port_create    CMakeFiles/cmTryCompileExec1556182754.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1556182754 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec1556182754.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `port_create'
+collect2: ld returned 1 exit status
+gmake[1]: Leaving directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+gmake[1]: *** [cmTryCompileExec1556182754] Error 1
+gmake: *** [cmTryCompileExec1556182754/fast] Error 2
+
+
+Determining if the function pthread_attr_create exists failed with the following output:
+Change Dir: /root/inception/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec765505219/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec765505219.dir/build.make CMakeFiles/cmTryCompileExec765505219.dir/build
+gmake[1]: Entering directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/inception/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec765505219.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=pthread_attr_create   -o CMakeFiles/cmTryCompileExec765505219.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec765505219
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec765505219.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=pthread_attr_create    CMakeFiles/cmTryCompileExec765505219.dir/CheckFunctionExists.c.o  -o cmTryCompileExec765505219 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec765505219.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `pthread_attr_create'
+collect2: ld returned 1 exit status
+gmake[1]: Leaving directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+gmake[1]: *** [cmTryCompileExec765505219] Error 1
+gmake: *** [cmTryCompileExec765505219/fast] Error 2
+
+
+Determining if the function pthread_condattr_create exists failed with the following output:
+Change Dir: /root/inception/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3468639893/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3468639893.dir/build.make CMakeFiles/cmTryCompileExec3468639893.dir/build
+gmake[1]: Entering directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/inception/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3468639893.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=pthread_condattr_create   -o CMakeFiles/cmTryCompileExec3468639893.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3468639893
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3468639893.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=pthread_condattr_create    CMakeFiles/cmTryCompileExec3468639893.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3468639893 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec3468639893.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `pthread_condattr_create'
+collect2: ld returned 1 exit status
+gmake[1]: Leaving directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+gmake[1]: *** [cmTryCompileExec3468639893] Error 1
+gmake: *** [cmTryCompileExec3468639893/fast] Error 2
+
+
+Determining if the function pthread_threadmask exists failed with the following output:
+Change Dir: /root/inception/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1714031269/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1714031269.dir/build.make CMakeFiles/cmTryCompileExec1714031269.dir/build
+gmake[1]: Entering directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/inception/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1714031269.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=pthread_threadmask   -o CMakeFiles/cmTryCompileExec1714031269.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1714031269
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1714031269.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=pthread_threadmask    CMakeFiles/cmTryCompileExec1714031269.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1714031269 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec1714031269.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `pthread_threadmask'
+collect2: ld returned 1 exit status
+gmake[1]: Leaving directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+gmake[1]: *** [cmTryCompileExec1714031269] Error 1
+gmake: *** [cmTryCompileExec1714031269/fast] Error 2
+
+
+Determining if the function pthread_yield_np exists failed with the following output:
+Change Dir: /root/inception/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2990605751/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2990605751.dir/build.make CMakeFiles/cmTryCompileExec2990605751.dir/build
+gmake[1]: Entering directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/inception/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2990605751.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=pthread_yield_np   -o CMakeFiles/cmTryCompileExec2990605751.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2990605751
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2990605751.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=pthread_yield_np    CMakeFiles/cmTryCompileExec2990605751.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2990605751 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec2990605751.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `pthread_yield_np'
+collect2: ld returned 1 exit status
+gmake[1]: Leaving directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+gmake[1]: *** [cmTryCompileExec2990605751] Error 1
+gmake: *** [cmTryCompileExec2990605751/fast] Error 2
+
+
+Determining if the function rwlock_init exists failed with the following output:
+Change Dir: /root/inception/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1061763021/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1061763021.dir/build.make CMakeFiles/cmTryCompileExec1061763021.dir/build
+gmake[1]: Entering directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/inception/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1061763021.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=rwlock_init   -o CMakeFiles/cmTryCompileExec1061763021.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1061763021
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1061763021.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=rwlock_init    CMakeFiles/cmTryCompileExec1061763021.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1061763021 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec1061763021.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `rwlock_init'
+collect2: ld returned 1 exit status
+gmake[1]: Leaving directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+gmake[1]: *** [cmTryCompileExec1061763021] Error 1
+gmake: *** [cmTryCompileExec1061763021/fast] Error 2
+
+
+Determining if the function setfd exists failed with the following output:
+Change Dir: /root/inception/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2029098088/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2029098088.dir/build.make CMakeFiles/cmTryCompileExec2029098088.dir/build
+gmake[1]: Entering directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/inception/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2029098088.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=setfd   -o CMakeFiles/cmTryCompileExec2029098088.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2029098088
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2029098088.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=setfd    CMakeFiles/cmTryCompileExec2029098088.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2029098088 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec2029098088.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `setfd'
+collect2: ld returned 1 exit status
+gmake[1]: Leaving directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+gmake[1]: *** [cmTryCompileExec2029098088] Error 1
+gmake: *** [cmTryCompileExec2029098088/fast] Error 2
+
+
+Determining if the function sigthreadmask exists failed with the following output:
+Change Dir: /root/inception/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3850841912/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3850841912.dir/build.make CMakeFiles/cmTryCompileExec3850841912.dir/build
+gmake[1]: Entering directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/inception/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3850841912.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=sigthreadmask   -o CMakeFiles/cmTryCompileExec3850841912.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3850841912
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3850841912.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=sigthreadmask    CMakeFiles/cmTryCompileExec3850841912.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3850841912 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec3850841912.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `sigthreadmask'
+collect2: ld returned 1 exit status
+gmake[1]: Leaving directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+gmake[1]: *** [cmTryCompileExec3850841912] Error 1
+gmake: *** [cmTryCompileExec3850841912/fast] Error 2
+
+
+Determining if the function strlcpy exists failed with the following output:
+Change Dir: /root/inception/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2678065/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2678065.dir/build.make CMakeFiles/cmTryCompileExec2678065.dir/build
+gmake[1]: Entering directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/inception/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2678065.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=strlcpy   -o CMakeFiles/cmTryCompileExec2678065.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2678065
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2678065.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=strlcpy    CMakeFiles/cmTryCompileExec2678065.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2678065 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec2678065.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `strlcpy'
+collect2: ld returned 1 exit status
+gmake[1]: Leaving directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+gmake[1]: *** [cmTryCompileExec2678065] Error 1
+gmake: *** [cmTryCompileExec2678065/fast] Error 2
+
+
+Determining if the function strlcat exists failed with the following output:
+Change Dir: /root/inception/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3140416715/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3140416715.dir/build.make CMakeFiles/cmTryCompileExec3140416715.dir/build
+gmake[1]: Entering directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/inception/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3140416715.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=strlcat   -o CMakeFiles/cmTryCompileExec3140416715.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3140416715
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3140416715.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=strlcat    CMakeFiles/cmTryCompileExec3140416715.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3140416715 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec3140416715.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `strlcat'
+collect2: ld returned 1 exit status
+gmake[1]: Leaving directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+gmake[1]: *** [cmTryCompileExec3140416715] Error 1
+gmake: *** [cmTryCompileExec3140416715/fast] Error 2
+
+
+Determining if the function fgetln exists failed with the following output:
+Change Dir: /root/inception/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3210125332/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3210125332.dir/build.make CMakeFiles/cmTryCompileExec3210125332.dir/build
+gmake[1]: Entering directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/inception/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3210125332.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=fgetln   -o CMakeFiles/cmTryCompileExec3210125332.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3210125332
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3210125332.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=fgetln    CMakeFiles/cmTryCompileExec3210125332.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3210125332 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec3210125332.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `fgetln'
+collect2: ld returned 1 exit status
+gmake[1]: Leaving directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+gmake[1]: *** [cmTryCompileExec3210125332] Error 1
+gmake: *** [cmTryCompileExec3210125332/fast] Error 2
+
+
+Determining if the function tell exists failed with the following output:
+Change Dir: /root/inception/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1958317917/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1958317917.dir/build.make CMakeFiles/cmTryCompileExec1958317917.dir/build
+gmake[1]: Entering directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/inception/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1958317917.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=tell   -o CMakeFiles/cmTryCompileExec1958317917.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1958317917
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1958317917.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=tell    CMakeFiles/cmTryCompileExec1958317917.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1958317917 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec1958317917.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `tell'
+collect2: ld returned 1 exit status
+gmake[1]: Leaving directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+gmake[1]: *** [cmTryCompileExec1958317917] Error 1
+gmake: *** [cmTryCompileExec1958317917/fast] Error 2
+
+
+Determining if the function thr_setconcurrency exists failed with the following output:
+Change Dir: /root/inception/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1966326799/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1966326799.dir/build.make CMakeFiles/cmTryCompileExec1966326799.dir/build
+gmake[1]: Entering directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/inception/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1966326799.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=thr_setconcurrency   -o CMakeFiles/cmTryCompileExec1966326799.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1966326799
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1966326799.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=thr_setconcurrency    CMakeFiles/cmTryCompileExec1966326799.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1966326799 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec1966326799.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `thr_setconcurrency'
+collect2: ld returned 1 exit status
+gmake[1]: Leaving directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+gmake[1]: *** [cmTryCompileExec1966326799] Error 1
+gmake: *** [cmTryCompileExec1966326799/fast] Error 2
+
+
+Determining if the function thr_yield exists failed with the following output:
+Change Dir: /root/inception/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec4214340223/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec4214340223.dir/build.make CMakeFiles/cmTryCompileExec4214340223.dir/build
+gmake[1]: Entering directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/inception/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4214340223.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=thr_yield   -o CMakeFiles/cmTryCompileExec4214340223.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec4214340223
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4214340223.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=thr_yield    CMakeFiles/cmTryCompileExec4214340223.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4214340223 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec4214340223.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `thr_yield'
+collect2: ld returned 1 exit status
+gmake[1]: Leaving directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+gmake[1]: *** [cmTryCompileExec4214340223] Error 1
+gmake: *** [cmTryCompileExec4214340223/fast] Error 2
+
+
+Determining if the function ntohll exists failed with the following output:
+Change Dir: /root/inception/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2679497996/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2679497996.dir/build.make CMakeFiles/cmTryCompileExec2679497996.dir/build
+gmake[1]: Entering directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/inception/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2679497996.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=ntohll   -o CMakeFiles/cmTryCompileExec2679497996.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2679497996
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2679497996.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=ntohll    CMakeFiles/cmTryCompileExec2679497996.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2679497996 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec2679497996.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `ntohll'
+collect2: ld returned 1 exit status
+gmake[1]: Leaving directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+gmake[1]: *** [cmTryCompileExec2679497996] Error 1
+gmake: *** [cmTryCompileExec2679497996/fast] Error 2
+
+
+Determining if the function kqueue exists failed with the following output:
+Change Dir: /root/inception/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1556447504/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1556447504.dir/build.make CMakeFiles/cmTryCompileExec1556447504.dir/build
+gmake[1]: Entering directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/inception/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1556447504.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=kqueue   -o CMakeFiles/cmTryCompileExec1556447504.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1556447504
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1556447504.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=kqueue    CMakeFiles/cmTryCompileExec1556447504.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1556447504 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec1556447504.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `kqueue'
+collect2: ld returned 1 exit status
+gmake[1]: *** [cmTryCompileExec1556447504] Error 1
+gmake[1]: Leaving directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec1556447504/fast] Error 2
+
+
+Determining if the function kqueue exists failed with the following output:
+Change Dir: /root/inception/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1245018246/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1245018246.dir/build.make CMakeFiles/cmTryCompileExec1245018246.dir/build
+gmake[1]: Entering directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/inception/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1245018246.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=kqueue   -o CMakeFiles/cmTryCompileExec1245018246.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1245018246
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1245018246.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=kqueue    CMakeFiles/cmTryCompileExec1245018246.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1245018246 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec1245018246.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `kqueue'
+collect2: ld returned 1 exit status
+gmake[1]: Leaving directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+gmake[1]: *** [cmTryCompileExec1245018246] Error 1
+gmake: *** [cmTryCompileExec1245018246/fast] Error 2
+
+
+Determining if files ia64intrin.h exist failed with the following output:
+Change Dir: /root/inception/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec698698718/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec698698718.dir/build.make CMakeFiles/cmTryCompileExec698698718.dir/build
+gmake[1]: Entering directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/inception/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec698698718.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec698698718.dir/CheckIncludeFiles.c.o   -c /root/inception/debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/root/inception/debug/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:24: error: ia64intrin.h: No such file or directory
+gmake[1]: Leaving directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec698698718.dir/CheckIncludeFiles.c.o] Error 1
+gmake: *** [cmTryCompileExec698698718/fast] Error 2
+
+Source:
+/* */
+#include <ia64intrin.h>
+
+
+int main(){return 0;}
+
+Determining if the function read_real_time exists failed with the following output:
+Change Dir: /root/inception/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3999537353/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3999537353.dir/build.make CMakeFiles/cmTryCompileExec3999537353.dir/build
+gmake[1]: Entering directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/inception/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3999537353.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=read_real_time   -o CMakeFiles/cmTryCompileExec3999537353.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3999537353
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3999537353.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=read_real_time    CMakeFiles/cmTryCompileExec3999537353.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3999537353 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec3999537353.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `read_real_time'
+collect2: ld returned 1 exit status
+gmake[1]: Leaving directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+gmake[1]: *** [cmTryCompileExec3999537353] Error 1
+gmake: *** [cmTryCompileExec3999537353/fast] Error 2
+
+
+Determining if the function rdtscll exists failed with the following output:
+Change Dir: /root/inception/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3817129680/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3817129680.dir/build.make CMakeFiles/cmTryCompileExec3817129680.dir/build
+gmake[1]: Entering directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/inception/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3817129680.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=rdtscll   -o CMakeFiles/cmTryCompileExec3817129680.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3817129680
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3817129680.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=rdtscll    CMakeFiles/cmTryCompileExec3817129680.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3817129680 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec3817129680.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `rdtscll'
+collect2: ld returned 1 exit status
+gmake[1]: Leaving directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+gmake[1]: *** [cmTryCompileExec3817129680] Error 1
+gmake: *** [cmTryCompileExec3817129680/fast] Error 2
+
+
+Determining if the TIOCSTAT exist failed with the following output:
+Change Dir: /root/inception/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec63048847/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec63048847.dir/build.make CMakeFiles/cmTryCompileExec63048847.dir/build
+gmake[1]: Entering directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/inception/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec63048847.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec63048847.dir/CheckSymbolExists.c.o   -c /root/inception/debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/root/inception/debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/root/inception/debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8: error: ‘TIOCSTAT’ undeclared (first use in this function)
+/root/inception/debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8: error: (Each undeclared identifier is reported only once
+/root/inception/debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8: error: for each function it appears in.)
+gmake[1]: Leaving directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec63048847.dir/CheckSymbolExists.c.o] Error 1
+gmake: *** [cmTryCompileExec63048847/fast] Error 2
+
+File /root/inception/debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/ioctl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef TIOCSTAT
+  return ((int*)(&TIOCSTAT))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the FIONREAD exist failed with the following output:
+Change Dir: /root/inception/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec428794867/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec428794867.dir/build.make CMakeFiles/cmTryCompileExec428794867.dir/build
+gmake[1]: Entering directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/inception/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec428794867.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec428794867.dir/CheckSymbolExists.c.o   -c /root/inception/debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/root/inception/debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:23: error: sys/filio.h: No such file or directory
+/root/inception/debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/root/inception/debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8: error: ‘FIONREAD’ undeclared (first use in this function)
+/root/inception/debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8: error: (Each undeclared identifier is reported only once
+/root/inception/debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:8: error: for each function it appears in.)
+gmake[1]: *** [CMakeFiles/cmTryCompileExec428794867.dir/CheckSymbolExists.c.o] Error 1
+gmake[1]: Leaving directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec428794867/fast] Error 2
+
+File /root/inception/debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/filio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef FIONREAD
+  return ((int*)(&FIONREAD))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the system is big endian passed with the following output:
+Change Dir: /root/inception/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2392520682/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2392520682.dir/build.make CMakeFiles/cmTryCompileExec2392520682.dir/build
+gmake[1]: Entering directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/inception/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2392520682.dir/TestEndianess.c.o
+/usr/bin/cc   -Wall    -o CMakeFiles/cmTryCompileExec2392520682.dir/TestEndianess.c.o   -c /root/inception/debug/CMakeFiles/CMakeTmp/TestEndianess.c
+Linking C executable cmTryCompileExec2392520682
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2392520682.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall     CMakeFiles/cmTryCompileExec2392520682.dir/TestEndianess.c.o  -o cmTryCompileExec2392520682 -rdynamic 
+gmake[1]: Leaving directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of uchar failed with the following output:
+Change Dir: /root/inception/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1628168269/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1628168269.dir/build.make CMakeFiles/cmTryCompileExec1628168269.dir/build
+gmake[1]: Entering directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/inception/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1628168269.dir/SIZEOF_UCHAR.c.o
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Wall    -o CMakeFiles/cmTryCompileExec1628168269.dir/SIZEOF_UCHAR.c.o   -c /root/inception/debug/CMakeFiles/CheckTypeSize/SIZEOF_UCHAR.c
+/root/inception/debug/CMakeFiles/CheckTypeSize/SIZEOF_UCHAR.c:21: error: ‘uchar’ undeclared here (not in a function)
+gmake[1]: Leaving directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec1628168269.dir/SIZEOF_UCHAR.c.o] Error 1
+gmake: *** [cmTryCompileExec1628168269/fast] Error 2
+
+/root/inception/debug/CMakeFiles/CheckTypeSize/SIZEOF_UCHAR.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "stdio.h"
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(uchar))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of int8 failed with the following output:
+Change Dir: /root/inception/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2496441932/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2496441932.dir/build.make CMakeFiles/cmTryCompileExec2496441932.dir/build
+gmake[1]: Entering directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/inception/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2496441932.dir/SIZEOF_INT8.c.o
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Wall    -o CMakeFiles/cmTryCompileExec2496441932.dir/SIZEOF_INT8.c.o   -c /root/inception/debug/CMakeFiles/CheckTypeSize/SIZEOF_INT8.c
+/root/inception/debug/CMakeFiles/CheckTypeSize/SIZEOF_INT8.c:21: error: ‘int8’ undeclared here (not in a function)
+gmake[1]: Leaving directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec2496441932.dir/SIZEOF_INT8.c.o] Error 1
+gmake: *** [cmTryCompileExec2496441932/fast] Error 2
+
+/root/inception/debug/CMakeFiles/CheckTypeSize/SIZEOF_INT8.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "stdio.h"
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(int8))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of uint8 failed with the following output:
+Change Dir: /root/inception/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec767340820/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec767340820.dir/build.make CMakeFiles/cmTryCompileExec767340820.dir/build
+gmake[1]: Entering directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/inception/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec767340820.dir/SIZEOF_UINT8.c.o
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Wall    -o CMakeFiles/cmTryCompileExec767340820.dir/SIZEOF_UINT8.c.o   -c /root/inception/debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT8.c
+/root/inception/debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT8.c:21: error: ‘uint8’ undeclared here (not in a function)
+gmake[1]: *** [CMakeFiles/cmTryCompileExec767340820.dir/SIZEOF_UINT8.c.o] Error 1
+gmake[1]: Leaving directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec767340820/fast] Error 2
+
+/root/inception/debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT8.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "stdio.h"
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(uint8))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of int16 failed with the following output:
+Change Dir: /root/inception/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3392476786/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3392476786.dir/build.make CMakeFiles/cmTryCompileExec3392476786.dir/build
+gmake[1]: Entering directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/inception/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3392476786.dir/SIZEOF_INT16.c.o
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Wall    -o CMakeFiles/cmTryCompileExec3392476786.dir/SIZEOF_INT16.c.o   -c /root/inception/debug/CMakeFiles/CheckTypeSize/SIZEOF_INT16.c
+/root/inception/debug/CMakeFiles/CheckTypeSize/SIZEOF_INT16.c:21: error: ‘int16’ undeclared here (not in a function)
+gmake[1]: Leaving directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec3392476786.dir/SIZEOF_INT16.c.o] Error 1
+gmake: *** [cmTryCompileExec3392476786/fast] Error 2
+
+/root/inception/debug/CMakeFiles/CheckTypeSize/SIZEOF_INT16.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "stdio.h"
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(int16))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of uint16 failed with the following output:
+Change Dir: /root/inception/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec702807686/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec702807686.dir/build.make CMakeFiles/cmTryCompileExec702807686.dir/build
+gmake[1]: Entering directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/inception/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec702807686.dir/SIZEOF_UINT16.c.o
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Wall    -o CMakeFiles/cmTryCompileExec702807686.dir/SIZEOF_UINT16.c.o   -c /root/inception/debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT16.c
+/root/inception/debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT16.c:21: error: ‘uint16’ undeclared here (not in a function)
+gmake[1]: Leaving directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec702807686.dir/SIZEOF_UINT16.c.o] Error 1
+gmake: *** [cmTryCompileExec702807686/fast] Error 2
+
+/root/inception/debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT16.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "stdio.h"
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(uint16))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of int32 failed with the following output:
+Change Dir: /root/inception/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1169203299/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1169203299.dir/build.make CMakeFiles/cmTryCompileExec1169203299.dir/build
+gmake[1]: Entering directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/inception/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1169203299.dir/SIZEOF_INT32.c.o
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Wall    -o CMakeFiles/cmTryCompileExec1169203299.dir/SIZEOF_INT32.c.o   -c /root/inception/debug/CMakeFiles/CheckTypeSize/SIZEOF_INT32.c
+/root/inception/debug/CMakeFiles/CheckTypeSize/SIZEOF_INT32.c:21: error: ‘int32’ undeclared here (not in a function)
+gmake[1]: *** [CMakeFiles/cmTryCompileExec1169203299.dir/SIZEOF_INT32.c.o] Error 1
+gmake[1]: Leaving directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec1169203299/fast] Error 2
+
+/root/inception/debug/CMakeFiles/CheckTypeSize/SIZEOF_INT32.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "stdio.h"
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(int32))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of uint32 failed with the following output:
+Change Dir: /root/inception/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2592169778/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2592169778.dir/build.make CMakeFiles/cmTryCompileExec2592169778.dir/build
+gmake[1]: Entering directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/inception/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2592169778.dir/SIZEOF_UINT32.c.o
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Wall    -o CMakeFiles/cmTryCompileExec2592169778.dir/SIZEOF_UINT32.c.o   -c /root/inception/debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT32.c
+/root/inception/debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT32.c:21: error: ‘uint32’ undeclared here (not in a function)
+gmake[1]: Leaving directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec2592169778.dir/SIZEOF_UINT32.c.o] Error 1
+gmake: *** [cmTryCompileExec2592169778/fast] Error 2
+
+/root/inception/debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT32.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "stdio.h"
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(uint32))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of int64 failed with the following output:
+Change Dir: /root/inception/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2648702986/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2648702986.dir/build.make CMakeFiles/cmTryCompileExec2648702986.dir/build
+gmake[1]: Entering directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/inception/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2648702986.dir/SIZEOF_INT64.c.o
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Wall    -o CMakeFiles/cmTryCompileExec2648702986.dir/SIZEOF_INT64.c.o   -c /root/inception/debug/CMakeFiles/CheckTypeSize/SIZEOF_INT64.c
+/root/inception/debug/CMakeFiles/CheckTypeSize/SIZEOF_INT64.c:21: error: ‘int64’ undeclared here (not in a function)
+gmake[1]: Leaving directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec2648702986.dir/SIZEOF_INT64.c.o] Error 1
+gmake: *** [cmTryCompileExec2648702986/fast] Error 2
+
+/root/inception/debug/CMakeFiles/CheckTypeSize/SIZEOF_INT64.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "stdio.h"
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(int64))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of uint64 failed with the following output:
+Change Dir: /root/inception/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1840992447/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1840992447.dir/build.make CMakeFiles/cmTryCompileExec1840992447.dir/build
+gmake[1]: Entering directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/inception/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1840992447.dir/SIZEOF_UINT64.c.o
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Wall    -o CMakeFiles/cmTryCompileExec1840992447.dir/SIZEOF_UINT64.c.o   -c /root/inception/debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT64.c
+/root/inception/debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT64.c:21: error: ‘uint64’ undeclared here (not in a function)
+gmake[1]: Leaving directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec1840992447.dir/SIZEOF_UINT64.c.o] Error 1
+gmake: *** [cmTryCompileExec1840992447/fast] Error 2
+
+/root/inception/debug/CMakeFiles/CheckTypeSize/SIZEOF_UINT64.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "stdio.h"
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(uint64))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of bool failed with the following output:
+Change Dir: /root/inception/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec4033450536/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec4033450536.dir/build.make CMakeFiles/cmTryCompileExec4033450536.dir/build
+gmake[1]: Entering directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/inception/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4033450536.dir/SIZEOF_BOOL.c.o
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Wall    -o CMakeFiles/cmTryCompileExec4033450536.dir/SIZEOF_BOOL.c.o   -c /root/inception/debug/CMakeFiles/CheckTypeSize/SIZEOF_BOOL.c
+/root/inception/debug/CMakeFiles/CheckTypeSize/SIZEOF_BOOL.c:20: error: ‘bool’ undeclared here (not in a function)
+gmake[1]: Leaving directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec4033450536.dir/SIZEOF_BOOL.c.o] Error 1
+gmake: *** [cmTryCompileExec4033450536/fast] Error 2
+
+/root/inception/debug/CMakeFiles/CheckTypeSize/SIZEOF_BOOL.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(bool))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Performing C SOURCE FILE Test TIME_T_UNSIGNED failed with the following output:
+Change Dir: /root/inception/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2007075746/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2007075746.dir/build.make CMakeFiles/cmTryCompileExec2007075746.dir/build
+gmake[1]: Entering directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/inception/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2007075746.dir/src.c.o
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Wall -DTIME_T_UNSIGNED   -o CMakeFiles/cmTryCompileExec2007075746.dir/src.c.o   -c /root/inception/debug/CMakeFiles/CMakeTmp/src.c
+/root/inception/debug/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/root/inception/debug/CMakeFiles/CMakeTmp/src.c:4: error: ‘time_t’ undeclared (first use in this function)
+/root/inception/debug/CMakeFiles/CMakeTmp/src.c:4: error: (Each undeclared identifier is reported only once
+/root/inception/debug/CMakeFiles/CMakeTmp/src.c:4: error: for each function it appears in.)
+/root/inception/debug/CMakeFiles/CMakeTmp/src.c:4: warning: unused variable ‘array’
+gmake[1]: Leaving directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec2007075746.dir/src.c.o] Error 1
+gmake: *** [cmTryCompileExec2007075746/fast] Error 2
+
+Source file was:
+
+int main()
+{
+  int array[(((time_t)-1) > 0) ? 1 : -1];
+  return 0;
+}
+Performing C SOURCE FILE Test HAVE_TIMESPEC_TS_SEC failed with the following output:
+Change Dir: /root/inception/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1050303032/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1050303032.dir/build.make CMakeFiles/cmTryCompileExec1050303032.dir/build
+gmake[1]: Entering directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/inception/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1050303032.dir/src.c.o
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Wall -DHAVE_TIMESPEC_TS_SEC   -o CMakeFiles/cmTryCompileExec1050303032.dir/src.c.o   -c /root/inception/debug/CMakeFiles/CMakeTmp/src.c
+/root/inception/debug/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/root/inception/debug/CMakeFiles/CMakeTmp/src.c:7: error: ‘struct timespec’ has no member named ‘ts_sec’
+/root/inception/debug/CMakeFiles/CMakeTmp/src.c:8: error: ‘struct timespec’ has no member named ‘ts_nsec’
+gmake[1]: Leaving directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec1050303032.dir/src.c.o] Error 1
+gmake: *** [cmTryCompileExec1050303032/fast] Error 2
+
+Source file was:
+
+#include <pthread.h>
+
+int main(int ac, char **av)
+{
+  struct timespec abstime;
+  abstime.ts_sec = time(NULL)+1;
+  abstime.ts_nsec = 0;
+}
+
+Performing C++ SOURCE FILE Test HAVE_SOLARIS_STYLE_GETHOST failed with the following output:
+Change Dir: /root/inception/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2283607396/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2283607396.dir/build.make CMakeFiles/cmTryCompileExec2283607396.dir/build
+gmake[1]: Entering directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/inception/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2283607396.dir/src.cxx.o
+/usr/bin/c++   -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Wall -Wno-unused-parameter -DHAVE_SOLARIS_STYLE_GETHOST   -o CMakeFiles/cmTryCompileExec2283607396.dir/src.cxx.o -c /root/inception/debug/CMakeFiles/CMakeTmp/src.cxx
+/root/inception/debug/CMakeFiles/CMakeTmp/src.cxx: In function ‘int main()’:
+/root/inception/debug/CMakeFiles/CMakeTmp/src.cxx:17: error: cannot convert ‘int*’ to ‘hostent**’ for argument ‘7’ to ‘int gethostbyaddr_r(const void*, __socklen_t, int, hostent*, char*, size_t, hostent**, int*)’
+/root/inception/debug/CMakeFiles/CMakeTmp/src.cxx:15: warning: unused variable ‘foo’
+gmake[1]: Leaving directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec2283607396.dir/src.cxx.o] Error 1
+gmake: *** [cmTryCompileExec2283607396/fast] Error 2
+
+Source file was:
+
+    #undef inline
+    #if !defined(SCO) && !defined(__osf__) && !defined(_REENTRANT)
+    #define _REENTRANT
+    #endif
+    #include <pthread.h>
+    #include <sys/types.h>
+    #include <sys/socket.h>
+    #include <netinet/in.h>
+    #include <arpa/inet.h>
+    #include <netdb.h>
+    int main()
+    {
+
+       struct hostent *foo =
+       gethostbyaddr_r((const char *) 0,
+          0, 0, (struct hostent *) 0, (char *) NULL,  0, (int *)0);
+       return 0;
+    }
+  
+Determining if the include file netinet/in6.h exists failed with the following output:
+Change Dir: /root/inception/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2438788985/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2438788985.dir/build.make CMakeFiles/cmTryCompileExec2438788985.dir/build
+gmake[1]: Entering directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/inception/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2438788985.dir/CheckIncludeFile.c.o
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Wall    -o CMakeFiles/cmTryCompileExec2438788985.dir/CheckIncludeFile.c.o   -c /root/inception/debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/root/inception/debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:25: error: netinet/in6.h: No such file or directory
+gmake[1]: Leaving directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec2438788985.dir/CheckIncludeFile.c.o] Error 1
+gmake: *** [cmTryCompileExec2438788985/fast] Error 2
+
+
+Performing C SOURCE FILE Test HAVE_SOCKADDR_IN_SIN_LEN failed with the following output:
+Change Dir: /root/inception/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1462051912/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1462051912.dir/build.make CMakeFiles/cmTryCompileExec1462051912.dir/build
+gmake[1]: Entering directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/inception/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1462051912.dir/src.c.o
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Wall -DHAVE_SOCKADDR_IN_SIN_LEN   -o CMakeFiles/cmTryCompileExec1462051912.dir/src.c.o   -c /root/inception/debug/CMakeFiles/CMakeTmp/src.c
+/root/inception/debug/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/root/inception/debug/CMakeFiles/CMakeTmp/src.c:9: error: ‘struct sockaddr_in’ has no member named ‘sin_len’
+gmake[1]: Leaving directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec1462051912.dir/src.c.o] Error 1
+gmake: *** [cmTryCompileExec1462051912/fast] Error 2
+
+Source file was:
+
+#include <sys/types.h>
+#include <netinet/in.h>
+#include <sys/socket.h>
+
+int main()
+{
+   struct sockaddr_in* tmp;
+   tmp->sin_len;
+  return 0;
+}
+
+Performing C SOURCE FILE Test HAVE_SOCKADDR_IN6_SIN6_LEN failed with the following output:
+Change Dir: /root/inception/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2953516946/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2953516946.dir/build.make CMakeFiles/cmTryCompileExec2953516946.dir/build
+gmake[1]: Entering directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/inception/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2953516946.dir/src.c.o
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Wall -DHAVE_SOCKADDR_IN6_SIN6_LEN   -o CMakeFiles/cmTryCompileExec2953516946.dir/src.c.o   -c /root/inception/debug/CMakeFiles/CMakeTmp/src.c
+/root/inception/debug/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/root/inception/debug/CMakeFiles/CMakeTmp/src.c:9: error: ‘struct sockaddr_in6’ has no member named ‘sin6_len’
+gmake[1]: Leaving directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec2953516946.dir/src.c.o] Error 1
+gmake: *** [cmTryCompileExec2953516946/fast] Error 2
+
+Source file was:
+
+#include <sys/types.h>
+#include <netinet/in.h>
+#include <sys/socket.h>
+
+int main()
+{
+   struct sockaddr_in6* tmp;
+   tmp->sin6_len;
+  return 0;
+}
+
+Performing C SOURCE FILE Test STRUCT_DIRENT_HAS_D_NAMLEN failed with the following output:
+Change Dir: /root/inception/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec335509972/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec335509972.dir/build.make CMakeFiles/cmTryCompileExec335509972.dir/build
+gmake[1]: Entering directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/inception/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec335509972.dir/src.c.o
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Wall -DSTRUCT_DIRENT_HAS_D_NAMLEN   -o CMakeFiles/cmTryCompileExec335509972.dir/src.c.o   -c /root/inception/debug/CMakeFiles/CMakeTmp/src.c
+/root/inception/debug/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/root/inception/debug/CMakeFiles/CMakeTmp/src.c:7: error: ‘struct dirent’ has no member named ‘d_namlen’
+gmake[1]: Leaving directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec335509972.dir/src.c.o] Error 1
+gmake: *** [cmTryCompileExec335509972/fast] Error 2
+
+Source file was:
+
+#include <dirent.h>
+
+int main()
+{
+   struct dirent* tmp;
+   tmp->d_namlen;
+  return 0;
+}
+
+Determining if the function mbscmp exists failed with the following output:
+Change Dir: /root/inception/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec842029389/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec842029389.dir/build.make CMakeFiles/cmTryCompileExec842029389.dir/build
+gmake[1]: Entering directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/inception/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec842029389.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Wall -DCHECK_FUNCTION_EXISTS=mbscmp   -o CMakeFiles/cmTryCompileExec842029389.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec842029389
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec842029389.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=mbscmp    CMakeFiles/cmTryCompileExec842029389.dir/CheckFunctionExists.c.o  -o cmTryCompileExec842029389 -rdynamic -lm -lcrypt -ldl -lpthread -lrt 
+CMakeFiles/cmTryCompileExec842029389.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `mbscmp'
+collect2: ld returned 1 exit status
+gmake[1]: Leaving directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+gmake[1]: *** [cmTryCompileExec842029389] Error 1
+gmake: *** [cmTryCompileExec842029389/fast] Error 2
+
+
+Determining if the function strvis exists failed with the following output:
+Change Dir: /root/inception/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3893556652/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3893556652.dir/build.make CMakeFiles/cmTryCompileExec3893556652.dir/build
+gmake[1]: Entering directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/inception/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3893556652.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Wall -DCHECK_FUNCTION_EXISTS=strvis   -o CMakeFiles/cmTryCompileExec3893556652.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3893556652
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3893556652.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=strvis    CMakeFiles/cmTryCompileExec3893556652.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3893556652 -rdynamic 
+CMakeFiles/cmTryCompileExec3893556652.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `strvis'
+collect2: ld returned 1 exit status
+gmake[1]: Leaving directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+gmake[1]: *** [cmTryCompileExec3893556652] Error 1
+gmake: *** [cmTryCompileExec3893556652/fast] Error 2
+
+
+Determining if the function strunvis exists failed with the following output:
+Change Dir: /root/inception/debug/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec623637418/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec623637418.dir/build.make CMakeFiles/cmTryCompileExec623637418.dir/build
+gmake[1]: Entering directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /root/inception/debug/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec623637418.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -D_FILE_OFFSET_BITS=64 -D_LARGEFILE_SOURCE -D_LARGE_FILES -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -Wall -DCHECK_FUNCTION_EXISTS=strunvis   -o CMakeFiles/cmTryCompileExec623637418.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec623637418
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec623637418.dir/link.txt --verbose=1
+/usr/bin/cc   -Wall -DCHECK_FUNCTION_EXISTS=strunvis    CMakeFiles/cmTryCompileExec623637418.dir/CheckFunctionExists.c.o  -o cmTryCompileExec623637418 -rdynamic 
+CMakeFiles/cmTryCompileExec623637418.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `strunvis'
+collect2: ld returned 1 exit status
+gmake[1]: Leaving directory `/root/inception/debug/CMakeFiles/CMakeTmp'
+gmake[1]: *** [cmTryCompileExec623637418] Error 1
+gmake: *** [cmTryCompileExec623637418/fast] Error 2
+
+
